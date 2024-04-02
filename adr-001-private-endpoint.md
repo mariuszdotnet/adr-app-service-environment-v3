@@ -31,7 +31,7 @@ If your ASEv3 ILB is deployed with an internal virtual IP (VIP) address, the inb
 
 ## Observations (Suggestions)
 
-- The use of **private endpoints** has no clear benefits over the **ILB** provided with an **Internal ASEv3 deployment**.
+- The use of **private endpoints** has no clear benefits over the **ILB** provided with an **Internal ASEv3** deployment.
 
 - North/South traffic, specifically ingress can be managed with NSG at the ASEv3 subnet level.
 
