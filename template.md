@@ -1,4 +1,4 @@
-# Private Endpoint
+# Feature Name
 
 ## Prologue (Summary)
 
