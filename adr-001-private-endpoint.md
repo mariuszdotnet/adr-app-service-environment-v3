@@ -29,6 +29,8 @@ If your ASEv3 ILB is deployed with an internal virtual IP (VIP) address, the inb
 
   7. The use of private endpoints also incurs additional [ingress charges](https://azure.microsoft.com/en-us/pricing/details/private-link/) which are not present with the use of the ILB with ASEv3.
 
+  8. Custom domains assigned to apps with private endpoints on ILB ASEv3 do not need (bypass) the [external domain verification](https://learn.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-custom-domain?tabs=root%2Cazurecli#3-validate-and-complete).
+
 ## Observations (Suggestions)
 
 - The use of **private endpoints** has no clear benefits over the **ILB** provided with an **Internal ASEv3** deployment.
