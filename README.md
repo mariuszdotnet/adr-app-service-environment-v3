@@ -13,6 +13,6 @@ This repository contains architectural decision records, detailing the pros and 
 - [License](./LICENSE)
 - [Table of Contents](#table-of-contents)
   - ADR-001 - [Private Endpoint](./adr-001-private-endpoint.md)
-  - ADR-002 - [TBD](./page2.md)
+  - ADR-002 - [Network IP Range](./adr-002-network-ip-range.md)
   - ADR-002 - [TBD](./page2.md)
   - ADR-002 - [TBD](./page2.md)
