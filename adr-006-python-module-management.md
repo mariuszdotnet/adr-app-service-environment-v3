@@ -36,7 +36,7 @@ For full context it is recommended to review the following documentation:
   ```bash
   PIP_CONFIG_FILE=pip.conf
   ```
-
+**Note:** When using App Service with a Virtual Network or an App Service Environment there are [network dependencies](https://github.com/microsoft/Oryx/blob/main/doc/hosts/appservice.md#network-dependencies). You will need to allow outbound access from the webapp to **oryx-cdn.microsoft.io** on port **443**. **oryx-cdn.microsoft.io** hosts the Oryx packages corresponding to each SDK language and version. If this network dependency is blocked, then App Service will not be able to build your application using Oryx.
 
 ## Consequences (Results)
 
