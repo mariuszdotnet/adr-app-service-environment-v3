@@ -17,3 +17,4 @@ This repository contains architectural decision records, detailing the pros and 
   - ADR-003 - [Access Restrictions](./adr-003-access-restrictions.md)
   - ADR-004 - [Availability Zones](./adr-004-availiblity-zones.md)
   - ADR-005 - [Custom Domain Suffix](./adr-005-custom-domain-suffix.md)
+  - ADR-006 - [Python Module Management](./adr-006-python-module-management.md)
