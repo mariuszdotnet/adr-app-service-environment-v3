@@ -38,3 +38,7 @@ If your ASEv3 ILB is deployed with an internal virtual IP (VIP) address, the inb
 - North/South traffic, specifically ingress can be managed with NSG at the ASEv3 subnet level.
 
 - East/West traffic can not be controlled in both scenarios (PEP/ILB) due to the dynamic nature of IP assignment to the apps hosted in the App Service Plan on the ASEv3.
+
+- PEP provide a unique ingress end-point per application.
+
+- PEP could be usefull in scenarios where exposing a Web/Function App to a network which is not peered to the network the ASEv3 ILB is deployed on.
